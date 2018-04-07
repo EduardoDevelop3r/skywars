@@ -6,8 +6,8 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import net.eduard.skywars.Main;
-import net.eduard.skywars.manager.Skywars;
+import com.bestfyplugner.skywars.Main;
+import com.bestfyplugner.skywars.manager.Skywars;
 
 public class SkywarsCommand implements CommandExecutor {
 	public static String noConsole = Main.message("no-console", "");
